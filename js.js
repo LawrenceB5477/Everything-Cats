@@ -1,9 +1,4 @@
 (function() {
- //  console.log("test");
- //  var p = document.createElement("p");
- //  var node = document.createTextNode("This is a test");
- //  p.appendChild(node);
- // document.body.appendChild(p);
   var imgs = document.getElementsByTagName("img");
   var src = "";
   var ajax = new XMLHttpRequest();
