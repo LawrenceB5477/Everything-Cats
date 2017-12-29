@@ -8,7 +8,6 @@
      for (var j = 0; j < src.length; j++) {
        src[j] = src[j].replace(/(src=|")/g, "");
      }
-     console.log(src);
      for (var i = 0; i < imgs.length; i++) {
        imgs[i].src = src[i];
      }
