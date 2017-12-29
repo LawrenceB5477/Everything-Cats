@@ -1,0 +1,15 @@
+.cat-button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding-top: 70px;
+  font-size: 1.6em;
+}
+
+.lorem-img {
+  display: block;
+  margin: 20px auto;
+  width: 60%;
+}

@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Everything Cat!</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css.css" />
 </head>
+
 <body>
-  <h1>Drag the link to your bookmarks bar to save!</h1>
-  <a href='javascript:(function() {var script=document.createElement("script");script.src="https://evilfrog5477.github.io/Everything-Cats/js.js"; document.body.appendChild(script);})();'>Catify!</a> </body>
-  <br />
-  <hr />
-  <img src="http://lorempixel.com/400/200/" />
+  <div class="container">
+    <div class="row">
+      <h3>Drag the button to your bookmarks bar to save!</h3>
+  </div>
+    <div class="row">
+      <a class="cat-button btn btn-large waves-effect waves-light red" href='javascript:(function() {var script=document.createElement("script");script.src="https://evilfrog5477.github.io/Everything-Cats/js.js" + "?" + new Date().getTime(); document.body.appendChild(script);})();'>Catify!</a>
+    </div>
+    <div class="row">
+      <hr />
+      <img class="lorem-img" src=https://www.petful.com/wp-content/uploads/2016/07/british-shorthair.jpg" />
+    </div>
+  </div>
+  <!-- Compiled and minified JavaScript -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+
 </html>
